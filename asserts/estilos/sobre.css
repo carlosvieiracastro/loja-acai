@@ -1,0 +1,76 @@
+/*Reset básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    
+}
+
+/* Estilos para cabeçalho e navegação */
+header {
+    background-color: #800080;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    margin: 0 15px;
+    color: aqua;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para conteúdo */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px 0;
+}
+
+/* Estilos para rodapé */
+footer {
+    background-color: #800080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+
+h1 {  
+    margin-bottom: 20px; /* Espaço abaixo do título */  
+}  
+
+p {  
+    margin-bottom: 15px; /* Espaço abaixo dos parágrafos */  
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */  
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */  
+    color:black; /* Altera a cor do texto */  
+    font-weight: bold; /* Deixa o texto em negrito */  
+    margin-top: 10px; /* Adiciona margem acima do parágrafo */  
+    padding: 10px; /* Adiciona um espaçamento interno */  
+    border: 1px solid #4A922D; /* Adiciona uma borda ao redor */  
+    border-radius: 5px; /* Arredonda os cantos da borda */  
+    background-color: #F0F9E8; /* Altera a cor de fundo */
+}  
+
+

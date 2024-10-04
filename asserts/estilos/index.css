@@ -1,0 +1,71 @@
+/*Reset básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-image: url(../imagens/background-natural-acai.jpg);
+    background-size:cover;
+
+}
+
+/* Estilos para cabeçalho e navegação */
+header {
+    background-color: #800080;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    margin: 0 15px;
+    color: aqua;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para conteúdo */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px 0;
+}
+
+/* Estilos para rodapé */
+footer {
+    background-color: #800080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+
+h1 {  
+    margin-bottom: 20px; /* Espaço abaixo do título */  
+}  
+
+p {  
+    margin-bottom: 15px; /* Espaço abaixo dos parágrafos */  
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */  
+    
+}  
+
+
+
